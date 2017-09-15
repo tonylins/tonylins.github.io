@@ -11,7 +11,7 @@
 
 	body, input, select, textarea {
 		color: #444;
-		font-family: "lucida grande", "Helvetica Neue", Helvetica, sans-serif;
+		font-family: "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, helvetica, sans-serif;
 		font-size: 11pt;
 		font-weight: 400;
 		line-height: 1.75em;
