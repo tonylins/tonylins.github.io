@@ -13,49 +13,16 @@
 /* Container */
 
 	.container {
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: 10%;
+		margin-right: 10%;
 		
 		/* width: (containers) */
-		width: 45em;
+		width: 60em;
 	}
 
 	/* Modifiers */
 
-		/* 125% */
-			.container.\31 25\25 {
-				width: 100%;
-				
-				/* max-width: (containers * 1.25) */
-				max-width: 56.25em;
 
-				/* min-width: (containers) */
-				min-width: 45em;
-			}
-
-		/* 75% */
-			.container.\37 5\25 {
-				
-				/* width: (containers * 0.75) */
-				width: 33.75em;
-
-			}
-
-		/* 50% */
-			.container.\35 0\25 {
-				
-				/* width: (containers * 0.50) */
-				width: 22.5em;
-
-			}
-
-		/* 25% */
-			.container.\32 5\25 {
-				
-				/* width: (containers * 0.25) */
-				width: 11.25em;
-
-			}
 
 /* Grid */
 
