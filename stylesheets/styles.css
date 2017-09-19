@@ -105,7 +105,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:230px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -171,7 +171,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:550px;
   float:right;
   padding-bottom:5px;
 }
@@ -213,10 +213,17 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
     border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+    padding:0 0 15px 0;
+    margin:0 0 0 0;
+  }
+
+  section.outer {
+    border-top:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:0 0 0 0;
+    margin:0 0 0 0;
   }
 
   header a small {
@@ -269,16 +276,3 @@ footer {
     color:#444;
   }
 }
-
-.cv_right { float:right; _position:relative; }
-
-.image.avatar {
-      border-radius: 100%;
-      overflow: hidden;
-    }
-
-      .image.avatar img {
-        border-radius: 100%;
-        display: block;
-        width: 70%;
-      }
