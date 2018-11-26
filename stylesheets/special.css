@@ -1,6 +1,6 @@
 
 /* .cv_right { float:right; _position:relative; } */
-.cv_right {margin-left: 52px; position: absolute;}
+.cv_right {margin-left: 42px; position: absolute;}
 
 .image.avatar {
       border-radius: 100%;
@@ -11,6 +11,10 @@
         border-radius: 100%;
         display: block;
         width: 70%;
+        /*position: absolute;
+        left: 0px;*/
+
+
       }
 
 h1 {
@@ -19,6 +23,35 @@ h1 {
 
 body {
   font-family: "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+h2, h3 {
+    /*color: #a31f34;*/
+    margin-top: 0.7em;
+    margin-bottom: 0.3em;
+    padding-bottom: 0.2em;
+    line-height: 1.0;
+    padding-top: 0.5em;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    padding-top: 0.8em;
+    font-size: 160%;
+}
+
+h2 + h3 {
+    padding-top: 0.2em;
+}
+
+h3 {
+    font-size: 110%;
+    border-bottom: none;
 }
 
 /* Footer */
