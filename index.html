@@ -16,6 +16,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Ji Lin's Homepage</title>
 
+    <link rel="icon" type="image/png" href="./images/mit.ico">
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
@@ -69,17 +70,28 @@
       		<!-- About Me -->
       		<section  id="about">
 	    	    <h2>About Me</h2>
-	    			<p>I am currently a first-year Ph.D. student at <a href="https://www.eecs.mit.edu">MIT EECS</a>. Previously, I graduated from <a href="http://www.ee.tsinghua.edu.cn/publish/eeen/index.html">Department of Electronic Engineering</a>, <a href="http://www.tsinghua.edu.cn/publish/newthuen/index.html">Tsinghua University</a>. </p>
-                    <!-- My Chinese name is 林己 <a href="http://tts.imtranslator.net/ajip">[pronounce]</a>. -->
+	    			<p>I am currently a second-year Ph.D. student at <a href="https://www.eecs.mit.edu">MIT EECS</a>, advised by Prof. <a href="https://songhan.mit.edu/">Song Han</a>. My research interests lie in efficient and hardware-friendly machine learning and its applications.</p>
 
-	                <!-- <p>
-                        I worked in <a href="https://nicsefc.ee.tsinghua.edu.cn">Energy Efficient Computing Group</a> in 2015, advised by Prof. <a href="https://nicsefc.ee.tsinghua.edu.cn/people/yu-wang/">Yu Wang</a>. 
-	                    I worked in <a href="http://ivg.au.tsinghua.edu.cn/index.php">Intelligent Vision Group (IVG)</a> since Fall 2016, advised by Prof. <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/">Jiwen Lu</a>. 
-                        Later I interned at Google AI China Center advised by Prof. <a href="https://songhan.mit.edu">Song Han</a> and Prof. <a href="http://vision.stanford.edu/lijiali/">Jia Li</a></span>.
-	                    I visited at MIT <a href="https://songhan.mit.edu">HAN Lab</a> in 2018-2019, advised by Prof. <a href="https://songhan.mit.edu">Song Han</a>.
-	                </p> -->
-	                <p>My research interests lie in efficient and hardware-friendly machine learning and its applications.</p>
+                    <p>Before coming to MIT, I received my B.Eng. in Electronic Engineering from <a href="http://www.tsinghua.edu.cn/publish/newthuen/index.html">Tsinghua University</a>. 
+                        <!-- During my undergrad, I was fortunate to work with Prof. <a href="https://nicsefc.ee.tsinghua.edu.cn/people/yu-wang/">Yu Wang</a> and Prof. <a href="http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/">Jiwen Lu</a>. In summer 2020, I interned   -->
+                    During summer 2020, I interned at Adobe Research with <a href="https://www.cs.cmu.edu/~junyanz/">Jun-Yan Zhu</a> and <a href="https://richzhang.github.io/">Richard Zhang</a>.
+                    </p> 
+                    <!-- My Chinese name is 林己 <a href="http://tts.imtranslator.net/ajip">[pronounce]</a>. -->
 			</section>
+
+            <!-- Education -->
+            <section  id="news">
+                <h2>News</h2>
+                <ul>
+                    <li>[08/2020] Check out MCUNet! >70% ImageNet accuracy on off-the-shelf commercial microcontrollers.</li>
+                    <li>[08/2020] Our TSM repo receives 1k stars!  
+<iframe src="https://ghbtns.com/github-btn.html?user=mit-han-lab&repo=temporal-shift-module&type=star&count=true" frameborder="0" scrolling="0" width="120" height="20" title="GitHub"></iframe>
+                    </li>
+                    <li>[07/2020] I started summer internship at Adobe Research.</li>
+                    <li>[11/2019] TSM was selected as <a href="https://developer.nvidia.com/embedded/community/jetson-projects#tsm_online">the project of the month</a> by NVIDIA Jetson Community. </li>
+                    <!-- <li><strong>Invited Reviewer for ICML, NeurIPS, ICCV, IJCAI, ACMMM</strong></li> -->
+                </ul>
+            </section>
 			
 			<!-- Education -->
 			<section  id="education">
@@ -107,15 +119,162 @@
             <section  id="research">
 	            <h2>Selected Publications      <span style="float:right;"><a href="https://scholar.google.com/citations?user=dVtzVVAAAAAJ&hl=en">[Full List]</a></span></h2>
                 <p><i>* indicates equal contribution</i></p>
+
+                
+                <!-- MCUNet -->
+                <section class="pub">
+                    <table width="100%" align="center" border="0">
+                        <tr>
+                            <td width="25%" valign="top">
+                                <a href="images/mcunet.png" class="image"><img src="images/mcunet.png" width="90%" alt=""></a>
+                            </td>
+                            <td width="75%" align="center">
+                                <div class="title">MCUNet: Tiny Deep Learning on IoT Devices</div>
+                                <div class="authors">
+                                  <span class="me">Ji Lin</span>,
+                                  <span class="author">Wei-Ming Chen</span>,
+                                  <span class="author">Yujun Lin</span>,
+                                  <span class="author">John Cohn</span>,
+                                  <span class="author">Chuang Gan</span>,
+                                  <span class="author">Song Han</span>
+                                </div>
+                                <div>
+                                    <span class="tag"><a href="https://arxiv.org/pdf/2007.10319.pdf"><b>arXiv</b></a></span> /
+                                    <span class="tag"><a href="https://www.youtube.com/watch?v=YvioBgtec4U&feature=youtu.be">Demo Video</a></span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+
+
+                <!-- DiffAug -->
+                <section class="pub">
+                    <table width="100%" align="center" border="0">
+                        <tr>
+                            <td width="25%" valign="top">
+                                <a href="images/diffaug.jpg" class="image"><img src="images/diffaug.jpg" width="90%" alt=""></a>
+                            </td>
+                            <td width="75%" align="center">
+                                <div class="title">Differentiable Augmentation for Data-Efficient GAN Training</div>
+                                <div class="authors">
+                                  <span class="author">Shengyu Zhao</span>,
+                                  <span class="author">Zhijian Liu</span>,
+                                  <span class="me">Ji Lin</span>,
+                                  <span class="author">Jun-Yan Zhu</span>,
+                                  <span class="author">Song Han</span>
+                                </div>
+                                <div>
+                                    <span class="tag"><a href="https://arxiv.org/pdf/2006.10738"><b>arXiv</b></a></span> /
+                                    <span class="tag"><a href="https://hanlab.mit.edu/projects/data-efficient-gans/">Project Page</a></span> /
+                                    <span class="tag"><a href="https://github.com/mit-han-lab/data-efficient-gans">Code</a></span> /
+                                    <span class="tag"><a href="https://hanlab.mit.edu/projects/data-efficient-gans/slides.pdf">Slides</a></span> /
+                                    <span class="tag"><a href="https://colab.research.google.com/gist/zsyzzsoft/5fbb71b9bf9a3217576bebae5de46fc2/data-efficient-gans.ipynb">Colab Tutorial</a></span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+
+
+                <!-- GAN Compression -->
+                <section class="pub">
+                    <table width="100%" align="center" border="0">
+                        <tr>
+                            <td width="25%" valign="top">
+                                <a href="images/gan_compression.jpg" class="image"><img src="images/gan_compression.jpg" width="90%" alt=""></a>
+                            </td>
+                            <td width="75%" align="center">
+                                <div class="title">GAN Compression: Efficient Architectures for Interactive Conditional GANs</div>
+                                <div class="authors">
+                                  <span class="author">Muyang Li</span>,
+                                  <span class="me">Ji Lin</span>,
+                                  <span class="author">Yaoyao Ding</span>,
+                                  <span class="author">Zhijian Liu</span>,
+                                  <span class="author">Jun-Yan Zhu</span>,
+                                  <span class="author">Song Han</span>
+                                </div>
+                                <div>
+                                    <span class="tag"><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_GAN_Compression_Efficient_Architectures_for_Interactive_Conditional_GANs_CVPR_2020_paper.pdf"><b>CVPR 2020</b></a></span> /
+                                    <span class="tag"><a href="https://arxiv.org/pdf/2003.08936.pdf">arXiv</a></span> /
+                                    <span class="tag"><a href="https://hanlab.mit.edu/projects/gancompression/">Project Page</a></span> /
+                                    <span class="tag"><a href="https://github.com/mit-han-lab/gan-compression">Code</a></span> /
+                                    <span class="tag"><a href="https://youtu.be/IwFLVQj10DA">Video</a></span> /
+                                    <span class="tag"><a href="https://www.youtube.com/playlist?list=PL80kAHvQbh-r5R8UmXhQK1ndqRvPNw_ex">Demo Video</a></span> /
+                                    <span class="tag"><a href="https://hanlab.mit.edu/projects/gancompression/resources/546-slides.pdf">Slides</a></span>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+
+                <!-- APQ -->
+                <section class="pub">
+                    <table width="100%" align="center" border="0">
+                        <tr>
+                            <td width="25%" valign="top">
+                                <a href="images/apq.png" class="image"><img src="images/apq.png" width="85%" alt=""></a>
+                            </td>
+                            <td width="75%" align="center">
+                                <div class="title">APQ: Joint Search for Network Architecture, Pruning and Quantization Policy</div>
+                                <div class="authors">
+                                  <span class="author">Tianzhe Wang</span>,
+                                  <span class="author">Kuan Wang</span>,
+                                  <span class="author">Han Cai</span>,
+                                  <span class="me">Ji Lin</span>,
+                                  <span class="author">Zhijian Liu</span>,
+                                  <span class="author">Hanrui Wang</span>,
+                                  <span class="author">Yujun Lin</span>,
+                                  <span class="author">Song Han</span>
+                                </div>
+                                <div>
+                                    <span class="tag"><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_APQ_Joint_Search_for_Network_Architecture_Pruning_and_Quantization_Policy_CVPR_2020_paper.pdf"><b>CVPR 2020</b></a></span>  /
+                                    <span class="tag"><a href="https://arxiv.org/pdf/2006.08509.pdf">arXiv</a></span> 
+                                </div>
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </section>
+
+                <!-- Micro -->
+                <section class="pub">
+                    <table width="100%" align="center" border="0">
+                        <tr>
+                            <td width="25%" valign="top">
+                                <a href="images/automl_micro.png" class="image"><img src="images/automl_micro.png" width="85%" alt=""></a>
+                            </td>
+                            <td width="75%" align="center">
+                                <div class="title">AutoML for Architecting Efficient and Specialized Neural Networks</div>
+                                <div class="authors">
+                                  <span class="author">Han Cai*</span>,
+                                  <span class="me">Ji Lin*</span>,
+                                  <span class="author">Yujun Lin*</span>,
+                                  <span class="author">Zhijian Liu*</span>,
+                                  <span class="author">Kuan Wang*</span>,
+                                  <span class="author">Tianzhe Wang*</span>,
+                                  <span class="author">Ligeng Zhu*</span>,
+                                  <span class="author">Song Han</span>
+                                </div>
+                                <div>
+                                    <span class="tag"><a href="https://ieeexplore.ieee.org/abstract/document/8897011"><b>IEEE Micro</b></a></span> 
+                                </div>
+                            </td>
+                        </tr>
+
+
+                    </table>
+                </section>
                 
                 <!-- TSM -->
                 <section class="pub">
                     <table width="100%" align="center" border="0">
                         <tr>
-                            <td width="20%" valign="top">
+                            <td width="25%" valign="top">
                                 <a href="images/tsm.png" class="image"><img src="images/tsm.png" width="90%" alt=""></a>
                             </td>
-                            <td width="80%" align="center">
+                            <td width="75%" align="center">
                                 <div class="title">TSM: Temporal Shift Module for Efficient Video Understanding</div>
                                 <div class="authors">
                                   <span class="me">Ji Lin</span>,
@@ -153,10 +312,10 @@
                 <section class="pub">
                     <table width="100%" align="center" border="0">
                         <tr>
-                            <td width="20%" valign="top">
+                            <td width="25%" valign="top">
                                 <a href="images/haq.png" class="image"><img src="images/haq.png" width="90%" alt=""></a>
                             </td>
-                            <td width="80%" align="center">
+                            <td width="75%" align="center">
                                 <div class="title">HAQ: Hardware-Aware Automated Quantization</div>
                                 <div class="authors">
                                   <span class="author">Kuan Wang*</span>,
@@ -183,10 +342,10 @@
                 <section class="pub">
                     <table width="100%" align="center" border="0">
                         <tr>
-                            <td width="20%" valign="top">
+                            <td width="25%" valign="top">
                                 <a href="images/dq.png" class="image"><img src="images/dq.png" width="90%" alt=""></a>
                             </td>
-                            <td width="80%" align="center">
+                            <td width="75%" align="center">
                                 <div class="title">Defensive Quantization: When Efficiency Meets Robustness</div>
                                 <div class="authors">
                                   <span class="me">Ji Lin</span>,
@@ -208,10 +367,10 @@
                 <section class="pub">
                     <table width="100%" align="center" border="0">
                         <tr>
-                            <td width="20%" valign="top">
+                            <td width="25%" valign="top">
                                 <a href="images/amc.png" class="image"><img src="images/amc.png" width="90%" alt=""></a>
                             </td>
-                            <td width="80%" align="center">
+                            <td width="75%" align="center">
                                 <div class="title">AMC: AutoML for Model Compression and Acceleration on Mobile Devices</div>
                                 <div class="authors">
                                   <span class="author"><a href="http://yihui-he.github.io">Yihui He*</a></span>,
@@ -260,37 +419,15 @@
                     </table>
                 </section> -->
 
-                <!-- RNP-PAMI -->
-                <!-- <section class="pub">
-                    <table width="100%" align="center" border="0">
-                        <tr>
-                            <td width="20%" valign="top">
-                                <a href="images/rnp-pami.png" class="image"><img src="images/rnp-pami.png" width="80%" alt=""></a>
-                            </td>
-                            <td width="80%" align="center">
-                                <div class="title">Runtime Network Routing for Efficient Image Classification</div>
-                                <div class="authors">
-                                  <span class="author"><a href="https://raoyongming.github.io/">Yongming Rao</a></span>,
-                                  <span class="author"><a href="https://sites.google.com/site/elujiwen/">Jiwen Lu</a></span>,
-                                  <span class="me">Ji Lin</span>,
-                                  <span class="author"><a href="https://www.tsinghua.edu.cn/publish/auen/1713/2011/20110506105532098625469/20110506105532098625469_.html">Jie Zhou</a></span>
-                                </div>
-                                <div>
-                                    <span class="tag"><a href="https://ieeexplore.ieee.org/abstract/document/8510920"><b>T-PAMI</b></a></span>
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </section> -->
 
                  <!-- RNP -->
                 <section class="pub">
                     <table width="100%" align="center" border="0">
                         <tr>
-                            <td width="20%" valign="top">
+                            <td width="25%" valign="top">
                                 <a href="images/rnp.png" class="image"><img src="images/rnp.png" width="80%" alt=""></a>
                             </td>
-                            <td width="80%" align="center">
+                            <td width="75%" align="center">
                                 <div class="title">Runtime Neural Pruning</div>
                                 <div class="authors">
                                   <span class="me">Ji Lin*</span>,
@@ -341,7 +478,7 @@
                 </section> -->
 
                 <!-- CADL -->
-                <section class="pub">
+                <!-- <section class="pub">
                     <table width="100%" align="center" border="0">
                         <tr>
                             <td width="20%" valign="top">
@@ -363,7 +500,7 @@
                             </td>
                         </tr>
                     </table>
-                </section>
+                </section> -->
 
 
             
@@ -387,39 +524,30 @@
             <section  id="work">
                 <h2>Academic Service</h2>
                 <ul>
-                    <li>Invited reviewer for <b>ICML, NeurIPS, CVPR, ICCV, IJCAI, AAAI, ACMMM</b></li>
+                    <li>Conference reviewer: ICLR, ICML, NeurIPS, CVPR, ICCV, ECCV, IJCAI, AAAI, ACMMM</li>
+                    <li>Journel reviewer: JMLR, T-MM</li>
                     <!-- <li><strong>Invited Reviewer for ICML, NeurIPS, ICCV, IJCAI, ACMMM</strong></li> -->
                 </ul>
             </section>
 
     	
     		<!-- Honors -->
-            <section id="Honors">
+            <!-- <section id="Honors">
                 <h2>Honors and Awards</h2>
-        		<!-- <h4>Academic</h4>
-                    <ul>
-                        <li><strong>Invited presentation at <a href="http://tdam-bjkl.bjtu.edu.cn/mla2017.html">MLA 2017</a></strong> &nbsp 2017
-                        <li><strong>Invited presentation at <a href="http://bigeye.au.tsinghua.edu.cn/sidas2017/index.html">IEEE SIDAS 2017</a></strong> &nbsp 2017
-                    </ul> -->
                 <h4>Honors</h4>
                     <ul>
                         <li><strong>Outstanding Thesis Award, Outstanding Graduate</strong>, Tsinghua University &bull; 2019</li>
                         <li><strong>China National Scholarship</strong>, Ministry of Education of P.R. China &bull; 2017 </li>
                         <li><strong>Cai Xiong Scholarship</strong> (10/3300), Tsinghua University &bull; 2018 </li>
                         <li><strong>Spark Scientific and Technological Innovation Program</a></strong> (50/3300), Tsinghua University &bull; 2017-2018 </li>
-                        <!-- <li><strong>Samsung-Tsinghua Scholarship</a></strong>, Tsinghua University &bull; 2015 </li> -->
-                        <!-- <li><strong>Annual Academic Excellent Award</strong>, Tsinghua University &bull; 2015-2017 </li> -->
-                        <!-- <li><strong>Annual Comprehensive Excellent Award</strong>, Tsinghua University &bull; 2015-2017 </li> -->
                     </ul>
                 <h4>Challenges</h4>
                     <ul>
-                        <!-- <li><strong>1<sup>st</sup> Prize of 17<sup>th</sup> Electronic Design Contest</strong> (1/400), Tsinghua University  &bull; 2016 </li> -->
                         <li><strong>1<sup>st</sup> Prize of Visual Wakeup Words (VWW) Challenge</strong> &bull; 2019 </li>
                         <li><strong>3<sup>rd</sup> Prize of IEEE 2019 Low Power Image Recognition Challenge (LPIRC’19)</strong> &bull; 2019 </li>
                         <li><strong>3<sup>rd</sup> Prize of IEEE 2016 Low Power Image Recognition Challenge (LPIRC’16)</strong> &bull; 2016 </li>
-                        <!-- <li><strong>2<sup>nd</sup> Prize in the National Chemistry Olympiad </strong> &nbsp 2013</li>  -->
                     </ul>
-            </section>
+            </section> -->
 
 		<!--
             <section id="Skills">
