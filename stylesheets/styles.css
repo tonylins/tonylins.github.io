@@ -338,3 +338,15 @@ a:visited {
 section.pub {
   padding-bottom:25px;
 }
+
+.callout {
+  display: flex;
+  align-items: flex-start;
+  background: #f1f3f5;
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin: 16px 0;                     /* <- add vertical spacing */
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05); /* optional soft depth */
+/*  font-size: 14px;*/
+  line-height: 1.5;
+}
